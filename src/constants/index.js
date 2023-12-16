@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  github,
+  spotify,
+  leetworld,
+  aquaponics,
+  iitg,
+  igdtuw,
+  cisco,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +46,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "App Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Open Source Contributor",
     icon: backend,
   },
   {
@@ -116,149 +116,146 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Mobile App Developer - Intern",
+    company_name: "Kisaan Bazar, IIT Guwahati",
+    icon: iitg,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2022 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the development of an Android application for a Direct-to-Consumer (D2C) platform.",
+      "Utilized Java to craft a robust backend for seamless functionality.",
+      "Designed the user interface with XML, ensuring an intuitive layout and enhanced user experience.",
+      "Established a direct connection between vegetable and fruit sellers, facilitating a streamlined supply chain from farm to consumer.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Machine Learning Intern",
+    company_name: "IGDTUW",
+    icon: igdtuw,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an Admission Prediction Model using the K-Nearest Neighbours (KNN) algorithm for evaluating student admission probabilities to a university.",
+      "Demonstrated practical application of machine learning fundamentals throughout the model development.",
+      "Applied the KNN algorithm to effectively analyze and predict admission chances, showcasing proficiency in machine learning techniques.",
+      "Gained insights into the basics of machine learning while creating and refining the predictive model.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Hactoberfest Contributor",
+    company_name: "Hacktoberfest",
+    icon: github,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "October 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Merged 4 Pull Requests during the Hacktoberfest 2022 event.",
+      "Recognized and rewarded with the Holopin batch for contributions.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "GSSOC Contributor",
+    company_name: "GSSOC",
+    icon: github,
+    iconBg: "#383E56",
+    date: "May 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively participated in a 3-month open-source coding program.",
+      "Dedicated efforts towards contributing to and enhancing various open-source projects.",
+    ],
+  },
+  {
+    title: "CWICS India BOOST 3.0 Training Program",
+    company_name: "Cisco",
+    icon: cisco,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - June 2023",
+    points: [
+      "Successfully secured a spot as a participant in the prestigious CWiCS India BOOST program.",
+      "Engaged in a rigorous 45-day cybersecurity training program designed to deepen understanding across diverse security-related subjects.",
+      "Actively participated in hands-on exercises, gaining practical insights into real-world cybersecurity challenges.",
+      "Demonstrated commitment and dedication to expanding knowledge in the dynamic field of cybersecurity.",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial:   
+      "AI captivates me with its endless possibilities. From exploring machine learning algorithms to experimenting with my own AI projects, I'm driven by a curiosity to contribute to this evolving landscape. Whether it's developing innovative solutions or staying updated on breakthroughs, my passion for AI fuels a continuous journey of learning.",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Web development is both my canvas and playground. Crafting visually appealing digital experiences, I merge creativity with functionality. From front-end frameworks like React to the intricacies of back-end development, I stay devoted to reflecting the latest standards and providing users with intuitive online interactions.",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "In content creation, I discover the art of storytelling. Whether through writing, design, or multimedia production, I'm drawn to the power of creating compelling narratives. From informative blog posts to visually appealing graphics, I leverage creativity to captivate audiences and foster engagement. Content creation allows me to express ideas and connect with diverse audiences effectively.",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "LeetWorld",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full stack web application like LeetCode, featuring interactive coding challenges, real-time code evaluation, and user authentication, using NextJS, TypeScript, and TailwindCSS for a modern and responsive UI, and integrating Firebase for seamless progress tracking and challenge interaction.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: leetworld,
+    source_code_link: "https://github.com/mad-alpha/LeetWorld",
   },
   {
-    name: "Job IT",
+    name: "Spotify Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed and implemented the front-end of a music player application, like Spotify, featuring an inbuilt player with play/pause, repeat, and volume control functionalities, crafted with HTML, CSS, and Vanilla JavaScript. Implemented responsive design for seamless user experience across devices.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: spotify,
+    source_code_link: "https://github.com/mad-alpha/Spotify-Clone",
   },
   {
-    name: "Trip Guide",
+    name: "Aquaponics",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed an Android application for a D2C platform, utilizing Java for the backend and XML for layout, facilitating a direct connection between farmers and consumers, enabling seamless transactions and ensuring the delivery of fresh vegetables and fruits from the farm to the consumer's doorstep.",
     tags: [
       {
-        name: "nextjs",
+        name: "Android",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "XML",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: aquaponics,
+    source_code_link: "https://github.com/mad-alpha/Aquaponics",
   },
 ];
 

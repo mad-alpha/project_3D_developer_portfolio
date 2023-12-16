@@ -25,16 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import iitg from "/Users/srishti/Desktop/project_3D_developer_portfolio/src/assets/company/iitg.png";
-import igdtuw from "/Users/srishti/Desktop/project_3D_developer_portfolio/src/assets/company/igdtuw.jpeg";
-import cisco from "/Users/srishti/Desktop/project_3D_developer_portfolio/src/assets/company/cisco.png";
+import iitg from "/src/assets/company/iitg.png";
+import igdtuw from "/src/assets/company/igdtuw.jpeg";
+import cisco from "/src/assets/company/cisco.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import spotify from "/Users/srishti/Desktop/project_3D_developer_portfolio/src/assets/spotify.png";
-import leetworld from "/Users/srishti/Desktop/project_3D_developer_portfolio/src/assets/leetworld.png";
-import aquaponics from "/Users/srishti/Desktop/project_3D_developer_portfolio/src/assets/aquaponics.jpeg";
+import spotify from "/src/assets/spotify.png";
+import leetworld from "/src/assets/leetworld.png";
+import aquaponics from "/src/assets/aquaponics.jpeg";
 
 export {
   logo,
